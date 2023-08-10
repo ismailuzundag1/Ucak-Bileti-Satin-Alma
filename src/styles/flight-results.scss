@@ -1,0 +1,69 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f2f2;
+  background-image: url('../havaalani5.jpg');
+  background-size: cover; /* Resmi ekran boyutuna sığacak şekilde ölçekle */
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  img {
+    max-width: 100%;
+    height: auto;
+}
+}
+
+.flight-results-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: rgba(54, 43, 43, 0.3);
+  border: 1px solid #645858;
+  border-radius: 5px;
+  max-width: 500px;
+  backdrop-filter: blur(10px);
+  color: #f4e6e6;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 100vh; /* Artırarak uygun yüksekliği belirleyebilirsiniz */
+
+  .flight-card {
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+
+    li {
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%; /* Kartın tam genişlikte olmasını sağlar */
+      padding: 10px;
+      background-color: rgba(147, 130, 130, 0.1); /* Kart arkaplan rengi */
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #bd5a5a;
+      border: none;
+      border-radius: 3px;
+      padding: 5px 10px;
+      cursor: pointer;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+      &:hover {
+        background-color: #34cf4e;
+      }
+    }
+  }
+}

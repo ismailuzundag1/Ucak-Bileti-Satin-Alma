@@ -1,0 +1,105 @@
+.bg-pass-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+    background-image: url('../havaalani5.jpg'); /* Replace 'path/to/your/background-image.jpg' with the actual image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+   
+      
+}
+.selected-flight-info{
+  // border: 1px solid #6c5454;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #764b4b;
+  background-color: rgba(54, 43, 43, 0.3);
+
+}
+
+.pas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 50px;
+    background-color: #7c6868;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #f9ecec;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(66, 45, 45, 0.6);
+    margin-right: 15px;
+    margin-left: 15px;
+
+    
+    button {
+        justify-content: space-between;
+        padding: 5px 10px;
+        background-color: #ba1446;
+
+        color: #e9d9d9;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        
+    
+        &:hover {
+          background-color: #34cf4e;
+        }
+   
+}
+.passenger-input-group {
+    display: flex;
+    flex-direction: row; // Yatay hizalamak için flex-direction'ı row olarak ayarlıyoruz.
+    justify-content: space-between; // İçerikleri eşit aralıklarla yatayda hizalıyoruz.
+    align-items: center; // İçerikleri dikeyde ortalarına hizalıyoruz.
+    
+    label {
+      flex:1; // Label'ları eşit genişlikte yapıyoruz.
+      margin-right: 1px;
+      margin-left: -15px;
+    }
+  
+    input {
+      flex: 1; // Inputları label'lardan daha geniş yapıyoruz.
+      margin-left: -5px; // Label ile input arasına boşluk ekliyoruz.
+      margin-right: 70px;
+    }
+    button {
+        flex: 1; // Butonları label ve input alanlarından daha küçük yapıyoruz.
+        margin-left: 30px; // Butonlar arasına boşluk ekliyoruz.
+      }
+  
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    div {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+  
+      input {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+    }
+  
+  
+  
+      &:last-child {
+        margin-top: 20px;
+
+      }    
+    }
+  }
+  

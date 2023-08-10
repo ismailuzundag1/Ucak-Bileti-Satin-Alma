@@ -1,0 +1,67 @@
+.py-bg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+    background-image: url('../havaalani5.jpg'); /* Replace 'path/to/your/background-image.jpg' with the actual image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.py-pas{
+  border: 1px solid #6c5454;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #764b4b;
+  background-color: rgba(54, 43, 43, 0.3);
+  margin-top: auto;
+}
+
+.py-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: #7c6868;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #f9ecec;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(66, 45, 45, 0.6);
+    width: 300px;
+    
+  
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    input {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      width: 100%;
+    }
+  
+    button {
+      padding: 10px 20px;
+      background-color: #ba1446;
+
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+  
+      &:hover {
+        background-color: #34cf4e;
+      }
+    }
+  }
